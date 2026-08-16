@@ -1,7 +1,9 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>This is an James page</h1>
   </div>
+
+  <img src="../assets/james/james.png"/>
 </template>
 
 <style>
