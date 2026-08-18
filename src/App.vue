@@ -13,74 +13,83 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">James</RouterLink>
-        <RouterLink to="/gallery">Gallery</RouterLink>
       </nav>
     </div>
   </header>
 
-  <RouterView />
+  <main class="main">
+    <RouterView />
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>
+        Free software, No Rights Reserved, Licensed Under GPLv3.0 :
+        <a href="https://github.com/Snowman-scott/Snowman-scott.github.io" target="_blank">
+          Check out the source code on my GitHub.</a>
+      </p>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
+.nav {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
 }
 
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
+.nav-logo {
+  font-weight: 700;
+  color: var(--text);
+  font-size: 1rem;
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
+.nav-logo:hover {
+  text-decoration: none;
+  color: var(--accent);
 }
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+.nav-links {
+  display: flex;
+  gap: 4px;
 }
 
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+.nav-link {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: var(--text-dim);
 }
 
-nav a:first-of-type {
-  border: 0;
+.nav-link:hover {
+  color: var(--text);
+  background: var(--accent-muted);
+  text-decoration: none;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
+.nav-link.router-link-exact-active {
+  color: var(--accent);
+}
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
+.main {
+  padding: 80px 0;
+  min-height: calc(100vh - 112px);
+}
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+  color: var(--text-muted);
+  font-size: 0.8rem;
 }
 </style>
