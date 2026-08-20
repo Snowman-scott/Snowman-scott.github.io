@@ -5,15 +5,16 @@
     <section class="hero">
       <h1 class="hero-title">Rose Scott</h1>
       <p class="hero-desc">
-        Blurb about me
+        I am a 2nd year College student, I'm a developer with 6+ years of experience across many different forms of programming.
+        I have been taught to code in a formal setting but have expanded way beyond that by myself.
       </p>
-      <p class="hero-desc">What I am good with</p>
+      <p class="hero-desc">I am good with Backend development, Hardware, and Networking</p>
       <p class="hero-stack">
-        My stacks
+        Go  &ndash;  Python  &ndash;  HTML / CSS / Javascript / vue  &ndash;  HolyC
       </p>
       <div class="hero-links">
-        <a href="#/projects" class="hero-links">projects</a>
-        <a href="#/contact" class="hero-links">Contact</a>
+        <a href="#/projects" class="hero-links">projects &rarr;</a>
+        <a href="#/contact" class="hero-links">Contact &rarr;</a>
       </div>
     </section>
   </div>
