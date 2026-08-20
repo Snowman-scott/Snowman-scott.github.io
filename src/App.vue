@@ -1,21 +1,20 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="James" class="logo" src="./assets/james/james.png" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You Jamsed it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">James</RouterLink>
-      </nav>
-    </div>
-  </header>
+  <div class="layout">
+    <nav class="nav">
+      <div class="container nav-inner">
+        <RouterLink to="/" class="nav-logo">Rose Scott</RouterLink>
+      </div>
+      <div class="nav-links">
+        <RouterLink to="/" class="nav-link" exact>Home</RouterLink>
+        <RouterLink to="/projects" class="nav-link">Repos</RouterLink>
+        <RouterLink to="/contact" class="nav-link">Get In touch</RouterLink>
+      </div>
+    </nav>
+  </div>
 
   <main class="main">
     <RouterView />
