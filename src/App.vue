@@ -7,11 +7,11 @@ import { RouterLink, RouterView } from 'vue-router'
     <nav class="nav">
       <div class="container nav-inner">
         <RouterLink to="/" class="nav-logo">Rose Scott</RouterLink>
-      </div>
-      <div class="nav-links">
-        <RouterLink to="/" class="nav-link" exact>Home</RouterLink>
-        <RouterLink to="/repos" class="nav-link">Repos</RouterLink>
-        <RouterLink to="/contact" class="nav-link">Get In touch</RouterLink>
+        <div class="nav-links">
+          <RouterLink to="/" class="nav-link" exact>Home</RouterLink>
+          <RouterLink to="/repos" class="nav-link">Repos</RouterLink>
+          <RouterLink to="/contact" class="nav-link">Get In touch</RouterLink>
+        </div>
       </div>
     </nav>
   </div>
@@ -23,7 +23,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <footer class="footer">
     <div class="container">
       <p>
-        Free software, No Rights Reserved, Licensed Under GPLv3.0 :
+        No Rights Reserved, Licensed Under GPLv3.0 :
         <a href="https://github.com/Snowman-scott/Snowman-scott.github.io" target="_blank">
           Check out the source code on my GitHub.</a>
       </p>

@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="hero">
+  <div class="container">
     <img src="@/assets/james.png" width="800" height="800"/>
   </div>
 

@@ -77,7 +77,7 @@ const info = [
   text-decoration: none;
 }
 
-.link-label {
+.link-tag {
   color: var(--accent);
   font-weight: 500;
   min-width: 70px;
