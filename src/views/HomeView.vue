@@ -5,7 +5,7 @@
     <section class="hero">
       <h1 class="hero-title">Rose Scott</h1>
       <p class="hero-desc">
-        I am a 2nd year College student, I'm a developer with 6+ years of experience across many different forms of programming.
+        I am a 2nd year College student, I'm a developer with 4+ years of experience across many different forms of programming.
         I have been taught to code in a formal setting but have expanded way beyond that by myself.
       </p>
       <p class="hero-desc">I am good with Backend development, Hardware, and Networking</p>
