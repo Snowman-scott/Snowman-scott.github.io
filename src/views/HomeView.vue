@@ -13,8 +13,8 @@
         Go  &ndash;  Python  &ndash;  HTML / CSS / Javascript / vue  &ndash;  HolyC
       </p>
       <div class="hero-links">
-        <a href="/repos" class="hero-links">Repos &rarr;</a>
-        <a href="/contact" class="hero-links">Contact &rarr;</a>
+        <a href="#/repos" class="hero-links">Repos &rarr;</a>
+        <a href="#/contact" class="hero-links">Contact &rarr;</a>
       </div>
     </section>
   </div>
