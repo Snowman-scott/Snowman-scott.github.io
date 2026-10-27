@@ -1,12 +1,12 @@
-<script setup lang="js">
-defineProps({
-  title: String,
-  category: String,
-  tags: Array,
-  stack: Array,
-  description: String,
-  link: String
-})
+<script setup lang="ts">
+defineProps<{
+  title: string,
+  category: string,
+  tags: string[],
+  stack: string[],
+  description: string,
+  link: string,
+}>()
 </script>
 
 <template>

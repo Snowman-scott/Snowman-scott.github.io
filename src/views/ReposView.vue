@@ -1,6 +1,6 @@
-<script setup lang="js">
+<script setup lang="ts">
 import ProjectCard from "@/components/ProjectCard.vue"
-import { repos } from  "@/data/repos.js"
+import { repos } from  "@/data/repos.ts"
 </script>
 
 <template>
