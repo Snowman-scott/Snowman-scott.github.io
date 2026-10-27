@@ -10,7 +10,7 @@
       </p>
       <p class="hero-desc">I am good with Backend development, Hardware, and Networking</p>
       <p class="hero-stack">
-        Go  &ndash;  Python  &ndash;  HTML / CSS / Javascript / vue  &ndash;  HolyC
+        Go  &ndash;  Python  &ndash;  HTML / CSS / Typescript / vue  &ndash;  HolyC
       </p>
       <div class="hero-links">
         <a href="#/repos" class="hero-links">Repos &rarr;</a>
